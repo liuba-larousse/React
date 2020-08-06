@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffdd;
+}
+
+.navbar {
+  background-color: #006a71;  
+}
+
+.card,
+.btn{
+    background-color: #cbeaed;
+}
+
+li {
+    max-height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+img {
+    filter: saturate(135%) opacity(90%) contrast(150%) invert(15%);
+}
