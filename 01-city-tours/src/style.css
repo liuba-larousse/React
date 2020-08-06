@@ -1,0 +1,32 @@
+.tour {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+img.card-img-top {
+  height: 20rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card:hover .btn-close {
+  opacity: 1;
+}
+
+.btn-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: #18a3b87b;
+  color: whitesmoke;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
